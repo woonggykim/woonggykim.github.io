@@ -85,9 +85,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-5CG0LDMNER"
     anonymize_ip         : # true, false (default)
 
 
@@ -95,13 +95,13 @@ analytics:
 author:
   name             : "Woonggy Kim"
   avatar           : "/assets/fProfile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D., System Software Developer"
+  bio              : "Ph.D., Software Developer"
   location         : "Seoul, South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:woonggyk@gmail.com
+      url: "mailto:woonggyk@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://woonggy.kim"
@@ -209,7 +209,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Asia/Seoul" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)

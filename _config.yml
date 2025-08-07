@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 title                    : "Woonggy Kim"
-title_separator          : "-"
+title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Woonggy Kim"
 description              : "Biography"
@@ -95,28 +95,22 @@ analytics:
 author:
   name             : "Woonggy Kim"
   avatar           : "/assets/fProfile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D., Software Developer"
+  bio              : "Ph.D., Senior Software Engineer"
   location         : "Seoul, South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:woonggyk@gmail.com"
+      url: "mailto:woonggy@woonggy.kim"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://woonggy.kim"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/WoonggyKim"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://facebook.com/woonggy.kim"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/woonggyk"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/woonggykim"
 
 # Site Footer
 footer:
@@ -271,7 +265,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true

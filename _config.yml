@@ -317,6 +317,11 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  topics:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -331,3 +336,18 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _topics
+  - scope:
+      path: ""
+      type: topics
+    values:
+      layout: single
+      author_profile: true
+      share: true

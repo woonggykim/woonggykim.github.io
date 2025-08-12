@@ -2,7 +2,6 @@
 title: "About"
 permalink: /about/
 description: "Woonggy Kim — Industrial automation, OPC UA, EtherCAT, automotive embedded security"
-author: woonggy-kim
 ---
 
 I am **Woonggy Kim**, a Senior Software Engineer at **Hyundai Autoever Corp.** specializing in **industrial automation**, **real-time control networks**, and **automotive embedded security**.

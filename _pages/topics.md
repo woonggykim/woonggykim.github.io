@@ -2,7 +2,6 @@
 title: "Research Topics"
 permalink: /topics/
 description: "Core areas: EtherCAT, OPC UA, Automotive Embedded Security"
-author: woonggy-kim
 ---
 
 Below are my primary research areas. Each topic page includes background, my contributions, and references.

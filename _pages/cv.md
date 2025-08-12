@@ -2,7 +2,6 @@
 title: "Curriculum Vitae"
 permalink: /cv/
 description: "Online CV of Woonggy Kim"
-author: woonggy-kim
 ---
 
 # Woonggy Kim

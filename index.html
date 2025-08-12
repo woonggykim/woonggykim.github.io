@@ -1,4 +1,37 @@
 ---
-layout: home
-author_profile: true
+title: "Home"
+layout: splash
+permalink: /
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/concept.webp
+  caption: "Industrial Automation • Real-Time Networking • Automotive Embedded Security"
+excerpt: "Researcher and engineer developing secure, intelligent control systems for industrial automation and next-generation vehicles."
+intro:
+  - excerpt: 'I am **Woonggy Kim**, a Senior Software Engineer at Hyundai Autoever Corp., specializing in **industrial automation**, **real-time control networks**, and **automotive embedded security**. My work bridges **legacy systems** and **emerging technologies** like EtherCAT, OPC UA, MACsec, and on-device AI to create secure, interoperable, and high-performance solutions.'
+feature_row:
+  - image_path: /assets/images/CV.jpg
+    alt: "About"
+    title: "About Me"
+    excerpt: "Learn more about my background, education, and career."
+    url: "/about/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/opcua-thumb.gif
+    alt: "Topics"
+    title: "Research Topics"
+    excerpt: "Explore my work on EtherCAT, OPC UA, and automotive embedded security."
+    url: "/topics/"
+    btn_label: "Explore"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/cv.webp
+    alt: "CV"
+    title: "Curriculum Vitae"
+    excerpt: "View my academic and professional experience."
+    url: "/cv/"
+    btn_label: "View CV"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row %}

@@ -22,8 +22,8 @@ title                    : "Woonggy Kim"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Woonggy Kim"
-description              : "Embedded Software Engineer"
-url                      : "https://woonggy.kim" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Industrial automation, OPC UA, EtherCAT, and automotive embedded security"
+url                      : "https://www.woonggy.kim" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "woonggykim/woonggykim.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -69,11 +69,11 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : trye # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages    : true # true, false (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -100,69 +100,49 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  name: "Woonggy Kim"
+  links:
+    - "https://github.com/woonggykim"
+    - "https://scholar.google.com/citations?user=iHHuLeYAAAAJ"
+    - "https://www.linkedin.com/in/woonggykim"
 
 # Analytics
 analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : G-TWL0137TP0
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Woonggy Kim, Ph.D."
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Embedded Software Engineer"
-  location         : "Seoul, South Korea"
-  email            :
+  name: "Woonggy Kim"
+  avatar: "/assets/images/portrait.jpg"
+  bio: "Senior Software Engineer | Industrial Automation & Automotive Embedded Security"
+  location: "Seoul, South Korea"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+    - label: Email
+      icon: "fas fa-envelope"
       url: "mailto:woonggy@woonggy.kim"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://woonggy.kim"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/woonggy.kim"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-    - label: "Google Scholar"
-      icon: "fab fa-fw fa-google-scholar"
-      url: "https://scholar.google.co.kr/citations?user=iHHuLeYAAAAJ&hl=en"
+    - label: Google Scholar
+      icon: "ai ai-google-scholar"   # needs Academicons CSS if you want the icon
+      url: "https://scholar.google.com/citations?user=iHHuLeYAAAAJ"
+    - label: GitHub
+      icon: "fab fa-github"
+      url: "https://github.com/woonggykim"
+    - label: LinkedIn
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/woonggykim"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    - label: "About"
+      url: "/about/"
+    - label: "Topics"
+      url: "/topics/"
+    - label: "CV"
+      url: "/cv/"
   since: "2025"
 
 
@@ -271,6 +251,9 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -319,35 +302,38 @@ compress_html:
 
 # Collections
 collections:
+  pages:
+    output: true
+    permalink: /:path/
   topics:
     output: true
     permalink: /:collection/:path/
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
+      classes: wide
+      toc: true
+      toc_label: "On this page"
+      toc_sticky: true
+      sidebar:
+        nav: "main"
       author_profile: true
-  # _topics
+      show_date: false
+      breadcrumbs: true
+      related: true # uses related posts/pages if categories/tags match
   - scope:
-      path: ""
-      type: topics
+      path: "_posts"
+      type: posts
     values:
       layout: single
       author_profile: true
+      read_time: true
+      comments: false
       share: true
+      breadcrumbs: true
+      related: true

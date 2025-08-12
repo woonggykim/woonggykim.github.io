@@ -1,8 +1,12 @@
 ---
-title: Topics
-layout: collection
+title: "Research Topics"
 permalink: /topics/
-collection: topics
-entries_layout: grid
-classes: wide
+description: "Core areas: EtherCAT, OPC UA, Automotive Embedded Security"
+author: woonggy-kim
 ---
+
+Below are my primary research areas. Each topic page includes background, my contributions, and references.
+
+- **[EtherCAT](/topics/ethercat/)**
+- **[OPC Unified Architecture](/topics/opc-ua/)**
+- **[Automotive Embedded Security](/topics/automotive-embedded-security/)**

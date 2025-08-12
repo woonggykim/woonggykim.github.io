@@ -1,10 +1,14 @@
-# main links
 main:
   - title: "About"
-    url: /
-  - title: "Topic"
+    url: /about/
+  - title: "Topics"
     url: /topics/
-  - title: "C.V."
+    children:
+      - title: "EtherCAT"
+        url: /topics/ethercat/
+      - title: "OPC Unified Architecture"
+        url: /topics/opc-ua/
+      - title: "Automotive Embedded Security"
+        url: /topics/automotive-embedded-security/
+  - title: "CV"
     url: /cv/
-  - title: "Blog"
-    url: /blogs/

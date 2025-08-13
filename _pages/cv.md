@@ -4,12 +4,12 @@ permalink: /cv/
 description: "Online CV of Woonggy Kim"
 ---
 
-# Woonggy Kim
-
-**Email:** woonggy.kim@hyundai-autoever.com  
-**Google Scholar:** [View here](https://scholar.google.com/citations?user=iHHuLeYAAAAJ)
+**Email:** <woonggy.kim@hyundai-autoever.com>  
+**Google Scholar:** [View here](https://scholar.google.com/citations?user=iHHuLeYAAAAJ)  
+**PDF**: [Get PDF](/assets/CV_Woonggy%20Kim.pdf)  
 
 ## Professional Experience
+
 **Senior Software Engineer, Automotive S/W Security Development Team**  
 **Hyundai Autoever Corp., Seoul, South Korea** — *Aug 2020 – Present*
 
@@ -20,6 +20,7 @@ description: "Online CV of Woonggy Kim"
 - Developed **UN ECE R155** cybersecurity backend (Spring Boot, MariaDB).
 
 ## Education
+
 **Ph.D., Mechanical Information Engineering** — University of Seoul (2013–2020)  
 **B.E., Electronics Engineering** — University of Seoul (2007–2013)
 

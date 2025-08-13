@@ -18,10 +18,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Woonggy Kim"
+title                    : "Dr. Woonggy Kim"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Woonggy Kim"
+name                     : "Woonggy Kim, Ph.D."
 description              : "Industrial automation, OPC UA, EtherCAT, and automotive embedded security"
 url                      : "https://www.woonggy.kim" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -116,7 +116,7 @@ analytics:
 
 # Site Author
 author:
-  name: "Woonggy Kim"
+  name: "Woonggy Kim, Ph.D."
   avatar: "/assets/images/2025_profile.jpeg"
   bio: "Senior Software Engineer"
   location: "Seoul, South Korea"
@@ -314,7 +314,7 @@ defaults:
     values:
       layout: single
       classes: wide
-      toc: true
+      toc: false
       toc_label: "On this page"
       toc_sticky: true
       sidebar:

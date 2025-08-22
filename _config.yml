@@ -116,7 +116,7 @@ analytics:
 
 # Site Author
 author:
-  name: "Woonggy (Peter) Kim"
+  name: "Dr. Woonggy (Peter) Kim"
   avatar: "/assets/images/2025_profile.jpeg"
   bio: "Senior Software Engineer"
   location: "Seoul, South Korea"
@@ -127,9 +127,9 @@ author:
     - label: Google Scholar
       icon: "fab fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?user=iHHuLeYAAAAJ"
-    - label: GitHub
-      icon: "fab fa-github"
-      url: "https://github.com/woonggykim"
+    - label: Facebook
+      icon: "fab fa-facebook-f"
+      url: "https://facebook.com/woonggy.kim"
     - label: LinkedIn
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/woonggykim"
@@ -137,8 +137,8 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "About"
-      url: "/about/"
+    - label: "Publications"
+      url: "/publications/"
     - label: "Topics"
       url: "/topics/"
     - label: "CV"

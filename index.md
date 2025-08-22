@@ -1,5 +1,5 @@
 ---
-title: "Dr. Woonggy (Peter) Kim"
+title: "Woonggy (Peter) Kim, Ph.D."
 layout: splash
 permalink: /
 header:
@@ -56,7 +56,7 @@ It is pronounced as:
 
 Phonetic transcription (IPA): **/uːŋ-gi/**
 
-For easier communication, I also go by my English nickname: **Peter**.  
+For easier communication, I also go by my preferred name: **Peter**.  
 
 Please feel free to call me either **Woonggy** or **Peter**.
 

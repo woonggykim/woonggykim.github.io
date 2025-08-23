@@ -5,20 +5,20 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/concept.webp
+  overlay_image: /assets/images/cover.png
   # caption: "Real-Time Embedded Systems · Industrial Ethernet · Automotive Embedded/Network Security"
 excerpt: "Real-Time Embedded Systems · Industrial Ethernet · Automotive Embedded/Network Security"
 intro:
   - excerpt: 'I am **Woonggy (Peter) Kim**, a Senior Software Engineer at Hyundai Autoever Corp., specializing in **industrial automation**, **real-time control networks**, and **automotive embedded security**. My work bridges **legacy systems** and **emerging technologies** like EtherCAT, OPC UA, MACsec, and on-device AI to create secure, interoperable, and high-performance solutions.'
 feature_row:
-  - image_path: /assets/images/CV.jpg
+  - image_path: /assets/images/opcua-thumb.png
     alt: "Publications"
     title: "Publications"
     excerpt: "Discover my collection of published papers and patents."
     url: "/publications/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/opcua-thumb.gif
+  - image_path: /assets/images/topics.jpg
     alt: "Topics"
     title: "Research Topics"
     excerpt: "Explore my work on EtherCAT, OPC UA, and automotive embedded security."

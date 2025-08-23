@@ -61,6 +61,5 @@ For easier communication, I also go by my preferred name: **Peter**.
 Please feel free to call me either **Woonggy** or **Peter**.
 
 <br/>
-<br/>
 
 {% include feature_row %}

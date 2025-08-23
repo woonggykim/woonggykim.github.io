@@ -47,9 +47,7 @@ I focus on bridging legacy systems with modern standards, advancing secure commu
 ## How to Pronounce My Name
 
 My Korean name is **Woonggy** (웅기).  
-It is pronounced as:
-
-**[Woong-gi]**
+It is pronounced as **[Woong-gi]**:
 
 - The first syllable **“Woong”** has a long “oo” sound, like the “oo” in *moon*, and ends with the "ng" sound, as in the English word *song*.
 - The second syllable **“gi”** is pronounced like *ghee* (the beginning of *give* without the “v” sound).  
